@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(135deg, #000957,  #4635B1, #C4D9FF);
+    height: 100vh;
+    width: 100%;
+}
+.list-box{
+    /* height: 150px; */
+    max-width: 600px;
+    background-color: #e8e9eb;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    padding: 30px;
+}
+.list-box h1{
+    color: rgb(255, 91, 62);
+    font-size: 40px;
+    font-family: arial;
+}
+.input-button{
+    width: 100%;
+    margin: 20px auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-button input{
+    flex: 1;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    padding-left: 20px;
+    color: #000957;
+    font-size: 19px;
+}
+.input-button button{
+    width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(211, 0, 211);
+    color: white;
+    font-size: 15px;
+}
+.add-list:hover{
+    background-color: violet;
+}
+.list-items ul li{
+    list-style: none;
+    /* border: 1px solid white; */
+    padding: 15px 0;
+    color: #000957;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid #596aff;
+}
+.fa-xmark{
+    position: absolute;
+    right: 0;
+    padding: 10px 12px;
+    border-radius: 15px;
+}
+.fa-xmark:hover{
+    background-color: #BFBBA9;
+}
